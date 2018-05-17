@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //app.use('/api', router);
 
-app.use(express.static(path.join(__dirname, 'static')));
+app.use(express.static(path.join(__dirname, '../static')));
 
 app.listen(PORT, (err) => {
   if (err) {

@@ -5,14 +5,26 @@ class App extends Component {
     super();
 
     this.state = {
-
+      restaurants: []
     }
   }
+
+  // componentWillMount() {
+  //   axios.get('/api/restaurants')
+  //     .then(({ data }) => {
+  //       this.setState({
+  //         restaurants: [...data, ...this.state.restaurants]
+  //       })
+  //     })
+  //     .catch((err) => {
+  //       console.log('Error: ', err)
+  //     })
+  // }
 
   render() {
     return (
       <div>
-        
+        Hello from react!
       </div>
     )
   }
